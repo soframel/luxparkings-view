@@ -28,4 +28,15 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+.resultMessage{
+font-size: large;
+font-weight: bold;
+}
+.resultValue{
+  font-size: large;
+  color: red;
+  font-weight: bold;
+}
+
 </style>
