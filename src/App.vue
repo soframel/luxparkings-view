@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
+      <router-link to="/">LuxParkings Viewer</router-link> |
       <router-link to="/about">About</router-link>
     </div>
     <router-view/>
@@ -17,7 +17,7 @@
   color: #2c3e50;
 }
 #nav {
-  padding: 30px;
+  padding: 5px;
 }
 
 #nav a {
@@ -29,6 +29,10 @@
   color: #42b983;
 }
 
+h1 {
+  font-size: larger;
+}
+
 .resultMessage{
 font-size: large;
 font-weight: bold;
@@ -37,6 +41,10 @@ font-weight: bold;
   font-size: large;
   color: red;
   font-weight: bold;
+}
+.resultWarning{
+font-size: smaller;
+font-style: italic;
 }
 
 </style>
